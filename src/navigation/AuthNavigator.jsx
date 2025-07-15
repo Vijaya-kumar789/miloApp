@@ -18,7 +18,7 @@ const AuthNavigator = () => (
     <Stack.Screen name='walkthrough2' component={WalkthroughScreen2}/>
     <Stack.Screen name='walkthrough3' component={WalkthroughScreen3}/>
     <Stack.Screen name='walkthrough4' component={WalkthroughScreen4}/>
-</Stack.Navigator>
+</Stack.Navigator> 
 </NavigationContainer>
 )
 
