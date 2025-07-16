@@ -7,7 +7,7 @@ const Splash = ({ navigation }) => {
   useEffect(() => {
     setTimeout(() => {
       navigation.navigate("walkthrough1");
-    }, 200000);
+    }, 2000);
   }, []);
 
   return (

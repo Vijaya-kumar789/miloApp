@@ -13,8 +13,8 @@ const Stack = createNativeStackNavigator()
 const AuthNavigator = () => (
  <NavigationContainer>
 <Stack.Navigator screenOptions={{ headerShown: false }}>
-    <Stack.Screen name='walkthrough1' component={WalkthroughScreen1}/>
     <Stack.Screen name='splash' component={Splash}/>
+    <Stack.Screen name='walkthrough1' component={WalkthroughScreen1}/>
     <Stack.Screen name='walkthrough2' component={WalkthroughScreen2}/>
     <Stack.Screen name='walkthrough3' component={WalkthroughScreen3}/>
     <Stack.Screen name='walkthrough4' component={WalkthroughScreen4}/>
