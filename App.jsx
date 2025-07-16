@@ -1,7 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet } from 'react-native';
+import { StyleSheet,View,Text } from 'react-native';
 import AuthNavigator from './src/navigation/AuthNavigator'; // 👈 make sure this path is correct
+import "./global.css"
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <AuthNavigator /> 
       
     </>
+
   );
 }
 
