@@ -6,15 +6,15 @@ import logoImg from "../assets/images/logo.png";
 const Splash = ({ navigation }) => {
   useEffect(() => {
     setTimeout(() => {
-      navigation.navigate("walkthrough1");
+      navigation.navigate("Walkthrough1");
     }, 2000);
   }, []);
 
   return (
-    <View style={styles.body}>
-      <Image source={splashImg} style={styles.splashImg} resizeMode="cover" />
-      <View style={styles.logoContainer}>
-        <Image source={logoImg} style={styles.logoImg} resizeMode="contain" />
+    <View className = " bg-[#FAB824] flex-1 relative " >
+      <Image className = "w-full absolute" source={splashImg} resizeMode="cover" />
+      <View className = "flex-1 justify-center items-center">
+        <Image className = "w-1/2" source={logoImg} resizeMode="contain" />
       </View>
     </View>
   );
@@ -22,24 +22,3 @@ const Splash = ({ navigation }) => {
 
 export default Splash;
 
-const styles = StyleSheet.create({
-  body: {
-    flex: 1,
-    backgroundColor: "#FAB824",
-    position: "relative",
-  },
-  splashImg: {
-    width: "100%",
-    height: "100%",
-    position: "absolute",
-  },
-  logoContainer: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  logoImg: {
-    width: 200,
-    height: 200,
-  },
-});
