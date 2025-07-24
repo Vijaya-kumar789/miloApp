@@ -11,7 +11,7 @@ import Splash from '../screens/Splash';
 const Stack = createNativeStackNavigator()
 
 const AuthNavigator = () => (
- <NavigationContainer>
+//  <NavigationContainer>
 <Stack.Navigator screenOptions={{ headerShown: false }}>
     <Stack.Screen name='splash' component={Splash}/>
     <Stack.Screen name='walkthrough1' component={WalkthroughScreen1}/>
@@ -19,7 +19,7 @@ const AuthNavigator = () => (
     <Stack.Screen name='walkthrough3' component={WalkthroughScreen3}/>
     <Stack.Screen name='walkthrough4' component={WalkthroughScreen4}/>
 </Stack.Navigator> 
-</NavigationContainer>
+// </NavigationContainer>
 )
 
 export default AuthNavigator

@@ -18,6 +18,7 @@ module.exports = {
     "./components/**/*.{js,jsx,ts,tsx}",      // Any nested components
     "./src/**/*.{js,jsx,ts,tsx}",             // Optional if you have a src/ folder
   ],
+  darkMode: 'class',
   presets: [require("nativewind/preset")],
   theme: {
     extend: {},
