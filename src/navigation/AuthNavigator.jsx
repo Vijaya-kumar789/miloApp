@@ -13,7 +13,7 @@ import ResetScreen from '../screens/Auth/ResetScreen';
 const Stack = createNativeStackNavigator()
 
 const AuthNavigator = () => (
- <NavigationContainer>
+//  <NavigationContainer>
 <Stack.Navigator screenOptions={{ headerShown: false }}>
     <Stack.Screen name='Login' component={LoginScreen}/>
     <Stack.Screen name='ForgotPassword' component={ForgotScreen}/>
@@ -25,7 +25,7 @@ const AuthNavigator = () => (
     {/* <Stack.Screen name='walkthrough3' component={WalkthroughScreen3}/>
     <Stack.Screen name='walkthrough4' component={WalkthroughScreen4}/> */}
 </Stack.Navigator> 
-</NavigationContainer>
+// </NavigationContainer>
 )
 
 export default AuthNavigator
